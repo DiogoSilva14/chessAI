@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(void){
-    piece mypiece(pawn);
-    cout << unsigned(mypiece.getType()) << "\n";
+    team team1(black);
+    cout << unsigned(team1.king->getX()) << "\n";
     return 0;
 }
