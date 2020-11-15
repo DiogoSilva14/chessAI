@@ -1,9 +1,10 @@
 #include <iostream>
+#include "../include/chess.hpp"
 
 using namespace std;
 
 int main(void){
-    cout << "Did it work?\n";
-
+    piece mypiece(pawn);
+    cout << unsigned(mypiece.getType()) << "\n";
     return 0;
 }
